@@ -19,11 +19,13 @@ body {
     margin:auto;
     margin-bottom: 10px;
     margin-top:10%;
+    background-color: hsl(218, 44%, 22%) ;
 }
 
 .qr__image {
     border-radius: 15px;
     margin-bottom:10px;
+    border:black solid 3px;
 
 }
 
@@ -38,10 +40,12 @@ body {
 .qr__description{
     font-size:15px;
     font-weight: 400;
-    color: hsl(220, 15%, 55%);
+    color: hsl(220, 15%, 80%);
 }
 
 .qr__title {
  font-family: 'Outfit', sans-serif;
  font-size: 20px;
+ text-align: center;
+ color:white;
 }

@@ -1,24 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
 body {
-    background-color:  hsl(212, 45%, 89%);;
-    display: column;
+    background-color:  hsl(212, 45%, 89%);
+    display:flex;
+    flex-direction: column;
     justify-content: center;
-    height:100vh;
+
 }
 
 
+
+
+
 .qr {
-    border: 2px solid black;
     display:flex;
     flex-direction: column;
-   justify-content: space-around;
+    justify-content: center;
     width:250px;
     background-color: hsl(0, 0%, 100%);
     padding:20px;
     border-radius: 20px;
     margin:auto;
     margin-bottom: 10px;
+    margin-top:10%;
+  
 
 }
 
@@ -31,7 +36,6 @@ body {
 .qr__content {
     display:flex;
     flex-direction:column;
-    justify-content: center;
     text-align: center;
     margin:auto;
     

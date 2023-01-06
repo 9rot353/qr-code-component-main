@@ -8,10 +8,6 @@ body {
 
 }
 
-
-
-
-
 .qr {
     display:flex;
     flex-direction: column;
@@ -23,8 +19,6 @@ body {
     margin:auto;
     margin-bottom: 10px;
     margin-top:10%;
-  
-
 }
 
 .qr__image {
